@@ -47,6 +47,7 @@ def full_name(first_name, last_name):
     print(f"Full name: {first_name} {last_name}")
 
 full_name("John", "Doe")
+full_name("Doe", "John")
 
 # Keyword arguments (order doesn't matter)
 full_name(last_name="Smith", first_name="Alice")

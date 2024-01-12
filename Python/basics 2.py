@@ -12,7 +12,10 @@
 age = 18
 
 if age >= 18:
-    print("You are eligible to vote.")
+    if age < 21:
+        print("not over 21")
+    else:
+        print("You are eligible to vote.")
 elif age != 10:
     print("not 10")
 else:
@@ -41,12 +44,20 @@ print("Modified list:", fruits)
 
 # Adding elements to a list
 fruits.append("grape")
+fruits.insert(1, "durian")
 print("After adding grape:", fruits)
 
 # Removing elements from a list
 fruits.remove("apple")
 fruits.pop()
 print("After removing apple:", fruits)
+
+print(fruits)
+temp = fruits[0]
+fruits[0] = fruits[1]
+fruits[1] = temp
+
+print(fruits)
 
 ## ----------------------------------------------------- Lists -----------------------------------------------------
 
@@ -61,8 +72,8 @@ for i in range(0, 10):
     numbers.append(input("input number: "))
     # print(i)
 
-for num in numbers:
-    print(num)
+for x in numbers:
+    print(x)
 
 # While loop example
 count = 0
@@ -100,6 +111,8 @@ print("Occupation: ", person["occupation"])
 # Removing a key-value pair
 del person["city"]
 print("After removing city:", person)
+
+# example usage of dictionaries
 
 kalimat = "ajdsfaeuhfpoawdjf;klajnwepfawpofehja"
 

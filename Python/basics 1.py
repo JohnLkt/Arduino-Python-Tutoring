@@ -43,7 +43,7 @@ print("Type a search term: ")
 # input() is used to get user input from the console
 word = input()
 otherWord = input()
-searchURL = f'https://www.merriam-webster.com/dictionary/{word}'
+searchURL = f'https://www.merriam-webster.com/dictionary/{word}/{otherWord}'
 print("Output String: " + searchURL)
 
 # ----------------------------------------------------- String Methods -----------------------------------------------------

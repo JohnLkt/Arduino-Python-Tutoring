@@ -1,0 +1,10 @@
+Please make a console Phone Book Which can do the following:
+1. add contacts (name, phone, email, address)
+2. view/search contact
+3. remove contact
+4. view all contacts
+
+Use Object-Oriented-Programming in the application.
+
+Bonus:
+- implement the ability to save / load contacts from a file.
